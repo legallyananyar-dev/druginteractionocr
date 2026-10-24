@@ -1,0 +1,485 @@
+{
+ "vocab": [
+  "aceclofenac",
+  "alendronate",
+  "allopurinol",
+  "alprazolam",
+  "amiodarone",
+  "amitriptyline",
+  "amlodipine",
+  "amoxicillin",
+  "apixaban",
+  "aspirin",
+  "atenolol",
+  "atorvastatin",
+  "azithromycin",
+  "bisoprolol",
+  "carbamazepine",
+  "carvedilol",
+  "cetirizine",
+  "ciprofloxacin",
+  "citalopram",
+  "clarithromycin",
+  "clonazepam",
+  "clopidogrel",
+  "codeine",
+  "dabigatran",
+  "dapagliflozin",
+  "dexamethasone",
+  "diazepam",
+  "diclofenac",
+  "digoxin",
+  "diltiazem",
+  "domperidone",
+  "doxycycline",
+  "empagliflozin",
+  "enalapril",
+  "enoxaparin",
+  "erythromycin",
+  "escitalopram",
+  "esomeprazole",
+  "famotidine",
+  "finasteride",
+  "fluconazole",
+  "fluoxetine",
+  "furosemide",
+  "gabapentin",
+  "gliclazide",
+  "glimepiride",
+  "glipizide",
+  "haloperidol",
+  "heparin",
+  "hydrochlorothiazide",
+  "ibuprofen",
+  "insulin",
+  "ketoconazole",
+  "ketorolac",
+  "lansoprazole",
+  "levofloxacin",
+  "levothyroxine",
+  "linezolid",
+  "lisinopril",
+  "lithium",
+  "lorazepam",
+  "losartan",
+  "lovastatin",
+  "metformin",
+  "methotrexate",
+  "metoprolol",
+  "metronidazole",
+  "montelukast",
+  "morphine",
+  "naproxen",
+  "nifedipine",
+  "olanzapine",
+  "olmesartan",
+  "omeprazole",
+  "ondansetron",
+  "pantoprazole",
+  "paracetamol",
+  "paroxetine",
+  "phenytoin",
+  "pioglitazone",
+  "prasugrel",
+  "pravastatin",
+  "prednisolone",
+  "prednisone",
+  "pregabalin",
+  "propranolol",
+  "rabeprazole",
+  "ramipril",
+  "rifampicin",
+  "risperidone",
+  "rivaroxaban",
+  "rosuvastatin",
+  "sertraline",
+  "sildenafil",
+  "simvastatin",
+  "sitagliptin",
+  "spironolactone",
+  "tamsulosin",
+  "telmisartan",
+  "ticagrelor",
+  "tramadol",
+  "valproate",
+  "valsartan",
+  "verapamil",
+  "vildagliptin",
+  "warfarin",
+  "zolpidem"
+ ],
+ "aliases": {
+  "aspirin": [
+   "aspirin",
+   "acetylsalicylic acid",
+   "salicylate",
+   "nsaid",
+   "nonsteroidal anti-inflammatory"
+  ],
+  "ibuprofen": [
+   "ibuprofen",
+   "nsaid",
+   "nonsteroidal anti-inflammatory"
+  ],
+  "naproxen": [
+   "naproxen",
+   "nsaid",
+   "nonsteroidal anti-inflammatory"
+  ],
+  "diclofenac": [
+   "diclofenac",
+   "nsaid",
+   "nonsteroidal anti-inflammatory"
+  ],
+  "aceclofenac": [
+   "aceclofenac",
+   "nsaid",
+   "nonsteroidal anti-inflammatory"
+  ],
+  "ketorolac": [
+   "ketorolac",
+   "nsaid",
+   "nonsteroidal anti-inflammatory"
+  ],
+  "atorvastatin": [
+   "atorvastatin",
+   "statin",
+   "hmg-coa"
+  ],
+  "rosuvastatin": [
+   "rosuvastatin",
+   "statin",
+   "hmg-coa"
+  ],
+  "simvastatin": [
+   "simvastatin",
+   "statin",
+   "hmg-coa"
+  ],
+  "pravastatin": [
+   "pravastatin",
+   "statin",
+   "hmg-coa"
+  ],
+  "lovastatin": [
+   "lovastatin",
+   "statin",
+   "hmg-coa"
+  ],
+  "omeprazole": [
+   "omeprazole",
+   "proton pump inhibitor",
+   "ppi"
+  ],
+  "pantoprazole": [
+   "pantoprazole",
+   "proton pump inhibitor",
+   "ppi"
+  ],
+  "esomeprazole": [
+   "esomeprazole",
+   "proton pump inhibitor",
+   "ppi"
+  ],
+  "rabeprazole": [
+   "rabeprazole",
+   "proton pump inhibitor",
+   "ppi"
+  ],
+  "lansoprazole": [
+   "lansoprazole",
+   "proton pump inhibitor",
+   "ppi"
+  ],
+  "lisinopril": [
+   "lisinopril",
+   "ace inhibitor",
+   "angiotensin-converting enzyme inhibitor"
+  ],
+  "enalapril": [
+   "enalapril",
+   "ace inhibitor",
+   "angiotensin-converting enzyme inhibitor"
+  ],
+  "ramipril": [
+   "ramipril",
+   "ace inhibitor",
+   "angiotensin-converting enzyme inhibitor"
+  ],
+  "telmisartan": [
+   "telmisartan",
+   "angiotensin receptor blocker",
+   "arb"
+  ],
+  "losartan": [
+   "losartan",
+   "angiotensin receptor blocker",
+   "arb"
+  ],
+  "valsartan": [
+   "valsartan",
+   "angiotensin receptor blocker",
+   "arb"
+  ],
+  "olmesartan": [
+   "olmesartan",
+   "angiotensin receptor blocker",
+   "arb"
+  ],
+  "sertraline": [
+   "sertraline",
+   "ssri",
+   "selective serotonin reuptake inhibitor",
+   "serotonergic"
+  ],
+  "fluoxetine": [
+   "fluoxetine",
+   "ssri",
+   "selective serotonin reuptake inhibitor",
+   "serotonergic"
+  ],
+  "escitalopram": [
+   "escitalopram",
+   "ssri",
+   "selective serotonin reuptake inhibitor",
+   "serotonergic"
+  ],
+  "citalopram": [
+   "citalopram",
+   "ssri",
+   "selective serotonin reuptake inhibitor",
+   "serotonergic"
+  ],
+  "paroxetine": [
+   "paroxetine",
+   "ssri",
+   "selective serotonin reuptake inhibitor",
+   "serotonergic"
+  ],
+  "tramadol": [
+   "tramadol",
+   "opioid"
+  ],
+  "codeine": [
+   "codeine",
+   "opioid"
+  ],
+  "morphine": [
+   "morphine",
+   "opioid"
+  ],
+  "warfarin": [
+   "warfarin",
+   "coumarin",
+   "anticoagulant",
+   "vitamin k antagonist"
+  ],
+  "apixaban": [
+   "apixaban",
+   "anticoagulant"
+  ],
+  "rivaroxaban": [
+   "rivaroxaban",
+   "anticoagulant"
+  ],
+  "dabigatran": [
+   "dabigatran",
+   "anticoagulant"
+  ],
+  "heparin": [
+   "heparin",
+   "anticoagulant"
+  ],
+  "enoxaparin": [
+   "enoxaparin",
+   "anticoagulant"
+  ],
+  "clopidogrel": [
+   "clopidogrel",
+   "antiplatelet",
+   "p2y12"
+  ],
+  "ticagrelor": [
+   "ticagrelor",
+   "antiplatelet",
+   "p2y12"
+  ],
+  "prasugrel": [
+   "prasugrel",
+   "antiplatelet",
+   "p2y12"
+  ],
+  "clarithromycin": [
+   "clarithromycin",
+   "macrolide"
+  ],
+  "erythromycin": [
+   "erythromycin",
+   "macrolide"
+  ],
+  "azithromycin": [
+   "azithromycin",
+   "macrolide"
+  ],
+  "ciprofloxacin": [
+   "ciprofloxacin",
+   "fluoroquinolone",
+   "quinolone"
+  ],
+  "levofloxacin": [
+   "levofloxacin",
+   "fluoroquinolone",
+   "quinolone"
+  ],
+  "fluconazole": [
+   "fluconazole",
+   "azole"
+  ],
+  "ketoconazole": [
+   "ketoconazole",
+   "azole"
+  ],
+  "metoprolol": [
+   "metoprolol",
+   "beta-blocker",
+   "beta blocker"
+  ],
+  "atenolol": [
+   "atenolol",
+   "beta-blocker",
+   "beta blocker"
+  ],
+  "bisoprolol": [
+   "bisoprolol",
+   "beta-blocker",
+   "beta blocker"
+  ],
+  "carvedilol": [
+   "carvedilol",
+   "beta-blocker",
+   "beta blocker"
+  ],
+  "propranolol": [
+   "propranolol",
+   "beta-blocker",
+   "beta blocker"
+  ],
+  "amlodipine": [
+   "amlodipine",
+   "calcium channel blocker"
+  ],
+  "nifedipine": [
+   "nifedipine",
+   "calcium channel blocker"
+  ],
+  "diltiazem": [
+   "diltiazem",
+   "calcium channel blocker"
+  ],
+  "verapamil": [
+   "verapamil",
+   "calcium channel blocker"
+  ],
+  "hydrochlorothiazide": [
+   "hydrochlorothiazide",
+   "thiazide",
+   "diuretic"
+  ],
+  "furosemide": [
+   "furosemide",
+   "diuretic"
+  ],
+  "spironolactone": [
+   "spironolactone",
+   "diuretic"
+  ],
+  "metformin": [
+   "metformin",
+   "biguanide"
+  ],
+  "glimepiride": [
+   "glimepiride",
+   "sulfonylurea"
+  ],
+  "gliclazide": [
+   "gliclazide",
+   "sulfonylurea"
+  ],
+  "glipizide": [
+   "glipizide",
+   "sulfonylurea"
+  ],
+  "alprazolam": [
+   "alprazolam",
+   "benzodiazepine"
+  ],
+  "clonazepam": [
+   "clonazepam",
+   "benzodiazepine"
+  ],
+  "diazepam": [
+   "diazepam",
+   "benzodiazepine"
+  ],
+  "lorazepam": [
+   "lorazepam",
+   "benzodiazepine"
+  ],
+  "paracetamol": [
+   "paracetamol",
+   "acetaminophen"
+  ],
+  "rifampicin": [
+   "rifampicin",
+   "rifampin"
+  ]
+ },
+ "labelNames": {
+  "paracetamol": "acetaminophen",
+  "rifampicin": "rifampin"
+ },
+ "brands": {
+  "ecosprin": "aspirin",
+  "disprin": "aspirin",
+  "glycomet": "metformin",
+  "glucophage": "metformin",
+  "crocin": "paracetamol",
+  "dolo": "paracetamol",
+  "calpol": "paracetamol",
+  "tylenol": "paracetamol",
+  "combiflam": [
+   "ibuprofen",
+   "paracetamol"
+  ],
+  "brufen": "ibuprofen",
+  "advil": "ibuprofen",
+  "motrin": "ibuprofen",
+  "voveran": "diclofenac",
+  "zerodol": "aceclofenac",
+  "pantocid": "pantoprazole",
+  "prilosec": "omeprazole",
+  "nexium": "esomeprazole",
+  "storvas": "atorvastatin",
+  "atorva": "atorvastatin",
+  "lipitor": "atorvastatin",
+  "crestor": "rosuvastatin",
+  "zocor": "simvastatin",
+  "telma": "telmisartan",
+  "amlokind": "amlodipine",
+  "norvasc": "amlodipine",
+  "clopitab": "clopidogrel",
+  "plavix": "clopidogrel",
+  "brilinta": "ticagrelor",
+  "eliquis": "apixaban",
+  "xarelto": "rivaroxaban",
+  "coumadin": "warfarin",
+  "augmentin": "amoxicillin",
+  "azithral": "azithromycin",
+  "zoloft": "sertraline",
+  "prozac": "fluoxetine",
+  "lasix": "furosemide",
+  "lanoxin": "digoxin",
+  "ultram": "tramadol",
+  "januvia": "sitagliptin"
+ }
+}
